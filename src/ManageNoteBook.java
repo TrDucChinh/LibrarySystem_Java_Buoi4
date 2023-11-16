@@ -70,15 +70,17 @@ public class ManageNoteBook extends NoteBook {
                 System.out.println("Không có ID này!");
                 return;
             }
-            System.out.println("Chọn mục cần sửa: ");
-            System.out.println("1. Tên vở");
-            System.out.println("2. Giá bán");
-            System.out.println("3. Thương hiệu");
-            System.out.println("4. Số trang");
-            System.out.println("5. Loại vở");
-            System.out.println("6. Màu bìa");
-            System.out.println("7. Chất liệu giấy");
-            System.out.println("8. Kích thước");
+            System.out.println("\n---------------------------------------");
+            System.out.println("|              Mục cần sửa            |");
+            System.out.println("| 1. Tên sách                         |");
+            System.out.println("| 2. Giá bán                          |");
+            System.out.println("| 3. Thương hiệu                      |");
+            System.out.println("| 4. Số trang                         |");
+            System.out.println("| 5. Loại vở                          |");
+            System.out.println("| 6. Màu bìa                          |");
+            System.out.println("| 7. Chất liệu giấy                   |");
+            System.out.println("| 8. Kích thước                       |");
+            System.out.println("---------------------------------------");
             System.out.print("Nhập lựa chọn: ");
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice){

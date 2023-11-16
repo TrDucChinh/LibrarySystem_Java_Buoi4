@@ -68,13 +68,15 @@ public class ManagePencil extends Pencil {
                 System.out.println("Không có ID này!");
                 return;
             }
-            System.out.println("Chọn mục cần sửa: ");
-            System.out.println("1. Tên bút chì");
-            System.out.println("2. Giá bán");
-            System.out.println("3. Thương hiệu");
-            System.out.println("4. Màu sắc");
-            System.out.println("5. Chất liệu");
-            System.out.println("6. Độ cứng");
+            System.out.println("\n---------------------------------------");
+            System.out.println("|              Mục cần sửa            |");
+            System.out.println("| 1. Tên sách                         |");
+            System.out.println("| 2. Giá bán                          |");
+            System.out.println("| 3. Thương hiệu                      |");
+            System.out.println("| 4. Màu sắc                          |");
+            System.out.println("| 5. Chất liệu                        |");
+            System.out.println("| 6. Độ cứng                          |");
+            System.out.println("---------------------------------------");
             System.out.print("Nhập lựa chọn: ");
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice) {

@@ -9,10 +9,12 @@ public class Guest extends ProductManage {
     public void guestActions(){
         Scanner sc = new Scanner(System.in);
         while (true){
-            System.out.println("\nMenu Khách");
-            System.out.println("1. Tìm Kiếm Sản Phẩm");
-            System.out.println("2. Xem Sản Phẩm");
-            System.out.println("3. Thoát");
+            System.out.println("\n---------------------------------------");
+            System.out.println("|              Menu Khách             |");
+            System.out.println("| 1. Tìm Kiếm Sản Phẩm                |");
+            System.out.println("| 2. Xem Sản Phẩm                     |");
+            System.out.println("| 3. Thoát                            |");
+            System.out.println("---------------------------------------");
             System.out.print("Nhập Lựa Chọn: ");
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice){

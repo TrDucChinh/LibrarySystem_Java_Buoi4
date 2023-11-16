@@ -4,11 +4,13 @@ public class ProductManage {
     Scanner sc = new Scanner(System.in);
     //Thêm Sản Phẩm
     public void addProduct() {
-        System.out.println("\nSản phẩm muốn thêm: ");
-        System.out.println("1. Thêm Sách");
-        System.out.println("2. Thêm Vở");
-        System.out.println("3. Thêm Bút Mực");
-        System.out.println("4. Thêm Bút Chì");
+        System.out.println("\n---------------------------------------");
+        System.out.println("|           Sản phẩm muốn thêm        |");
+        System.out.println("| 1. Thêm Sách                        |");
+        System.out.println("| 2. Thêm Vở                          |");
+        System.out.println("| 3. Thêm Bút Mực                     |");
+        System.out.println("| 4. Thêm Bút Chì                     |");
+        System.out.println("---------------------------------------");
         System.out.print("Nhập lựa chọn: ");
         byte choice = Byte.parseByte(sc.nextLine());
         while (true) {
@@ -41,11 +43,13 @@ public class ProductManage {
             System.out.println("Không có sản phẩm nào trong thư viện");
             return;
         }
-        System.out.println("\nSản phẩm muốn xóa: ");
-        System.out.println("1. Xóa Sách");
-        System.out.println("2. Xóa Vở");
-        System.out.println("3. Xóa Bút Mực");
-        System.out.println("4. Xóa Bút Chì");
+        System.out.println("\n---------------------------------------");
+        System.out.println("|           Sản phẩm muốn xóa         |");
+        System.out.println("| 1. Xóa Sách                         |");
+        System.out.println("| 2. Xóa Vở                           |");
+        System.out.println("| 3. Xóa Bút Mực                      |");
+        System.out.println("| 4. Xóa Bút Chì                      |");
+        System.out.println("---------------------------------------");
         System.out.print("Nhập lựa chọn: ");
         byte choice = Byte.parseByte(sc.nextLine());
         while (true) {
@@ -78,11 +82,13 @@ public class ProductManage {
             System.out.println("Không có sản phẩm nào trong thư viện");
             return;
         }
-        System.out.println("\nSản phẩm muốn cập nhật: ");
-        System.out.println("1. Cập nhật Sách");
-        System.out.println("2. Cập nhật Vở");
-        System.out.println("3. Cập nhật Bút Mực");
-        System.out.println("4. Cập nhật Bút Chì");
+        System.out.println("\n---------------------------------------");
+        System.out.println("|       Sản phẩm muốn cập nhật        |");
+        System.out.println("| 1. Cập nhật Sách                    |");
+        System.out.println("| 2. Cập nhật Vở                      |");
+        System.out.println("| 3. Cập nhật Bút Mực                 |");
+        System.out.println("| 4. Cập nhật Bút Chì                 |");
+        System.out.println("---------------------------------------");
         System.out.print("Nhập lựa chọn: ");
         byte choice = Byte.parseByte(sc.nextLine());
         while (true) {
@@ -118,9 +124,11 @@ public class ProductManage {
         }
         System.out.print("Nhập Truy Vấn: ");
         String query = sc.nextLine();
-        System.out.println("Chọn dạng hiển thị: ");
-        System.out.println("1. Hiển thị theo danh sách");
-        System.out.println("2. Hiển thị theo bảng");
+        System.out.println("\n---------------------------------------");
+        System.out.println("|             Dạng hiển thị           |");
+        System.out.println("| 1. Hiển thị theo danh sách          |");
+        System.out.println("| 2. Hiển thị theo bảng               |");
+        System.out.println("---------------------------------------");
         System.out.print("Nhập lựa chọn: ");
         byte choice = Byte.parseByte(sc.nextLine());
         while (true) {
@@ -145,9 +153,11 @@ public class ProductManage {
             System.out.println("Không có sản phẩm nào trong thư viện");
             return;
         }
-        System.out.println("Chọn dạng hiển thị: ");
-        System.out.println("1. Hiển thị theo danh sách");
-        System.out.println("2. Hiển thị theo bảng");
+        System.out.println("\n---------------------------------------");
+        System.out.println("|             Dạng hiển thị           |");
+        System.out.println("| 1. Hiển thị theo danh sách          |");
+        System.out.println("| 2. Hiển thị theo bảng               |");
+        System.out.println("---------------------------------------");
         System.out.print("Nhập lựa chọn: ");
         byte choice = Byte.parseByte(sc.nextLine());
         while (true) {

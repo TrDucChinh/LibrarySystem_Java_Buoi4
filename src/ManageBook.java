@@ -73,15 +73,18 @@ public class ManageBook extends Book {
                 System.out.println("Không có ID này!");
                 return;
             }
-            System.out.println("Chọn mục cần sửa: ");
-            System.out.println("1. Tên sách");
-            System.out.println("2. Giá bán");
-            System.out.println("3. Thương hiệu");
-            System.out.println("4. Thể loại");
-            System.out.println("5. Tác giả");
-            System.out.println("6. Nhà xuất bản");
-            System.out.println("7. Năm xuất bản");
-            System.out.println("8. Ngôn ngữ");
+
+            System.out.println("\n---------------------------------------");
+            System.out.println("|              Mục cần sửa            |");
+            System.out.println("| 1. Tên sách                         |");
+            System.out.println("| 2. Giá bán                          |");
+            System.out.println("| 3. Thương hiệu                      |");
+            System.out.println("| 4. Thể loại                         |");
+            System.out.println("| 5. Tác giả                          |");
+            System.out.println("| 6. Nhà xuất bản                     |");
+            System.out.println("| 7. Năm xuất bản                     |");
+            System.out.println("| 8. Ngôn ngữ                         |");
+            System.out.println("---------------------------------------");
             System.out.print("Nhập lựa chọn: ");
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice) {
