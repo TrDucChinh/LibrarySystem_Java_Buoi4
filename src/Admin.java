@@ -1,6 +1,7 @@
+import java.util.List;
 import java.util.Scanner;
 
-public class Admin extends LibrarySystem {
+public class Admin extends ProductManage {
     private static final String ADMIN_USERNAME = "admin";
     private static final String ADMIN_PASSWORD = "admin";
 
@@ -14,7 +15,7 @@ public class Admin extends LibrarySystem {
 
     public void adminActions() {
         Scanner sc = new Scanner(System.in);
-        ProductManage productManage = new ProductManage();
+
         while (true) {
             System.out.println("\nMenu Admin");
             System.out.println("1. Thêm Sản Phẩm");
@@ -27,25 +28,25 @@ public class Admin extends LibrarySystem {
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice) {
                 case 1:
-                    productManage.addProduct();
-                    super.pressKey();
+                    super.addProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 2:
-                    productManage.deleteProduct();
-                    super.pressKey();
+                    super.deleteProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 3:
-                    productManage.updateProduct();
-                    super.pressKey();
+                    super.updateProduct();
+                    LibrarySystem.pressKey();
                     break;
 
                 case 4:
-                    productManage.searchProduct();
-                    super.pressKey();
+                   super.searchProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 5:
-                    productManage.showProduct();
-                    super.pressKey();
+                    super.showProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 6:
                     System.out.println("Thoát chế độ Admin trở về chế độ Khách!!");

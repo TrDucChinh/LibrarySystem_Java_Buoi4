@@ -7,7 +7,7 @@ public class LibrarySystem {
     public static List<Product> productsList = new ArrayList<>();
     public static HashMap<Integer, Boolean> markId = new HashMap<>();
 
-    public void pressKey(){
+    public static void pressKey(){
         System.out.print("\nNhấn phím Enter để tiếp tục");
         Scanner sc = new Scanner(System.in);
         sc.nextLine();

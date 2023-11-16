@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Guest extends LibrarySystem {
+public class Guest extends ProductManage {
     private static final String GUEST_USERNAME = "khach";
 
     public static String getGuestUserName() {
@@ -9,7 +9,6 @@ public class Guest extends LibrarySystem {
 
     public void guestActions(){
         Scanner sc = new Scanner(System.in);
-        ProductManage productManage = new ProductManage();
         while (true){
             System.out.println("\nMenu Khách");
             System.out.println("1. Tìm Kiếm Sản Phẩm");
@@ -19,12 +18,12 @@ public class Guest extends LibrarySystem {
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice){
                 case 1:
-                    productManage.searchProduct();
-                    super.pressKey();
+                    super.searchProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 2:
-                    productManage.showProduct();
-                    super.pressKey();
+                    super.showProduct();
+                    LibrarySystem.pressKey();
                     break;
                 case 3:
                     System.out.println("Thoát chế độ Khách!!");
