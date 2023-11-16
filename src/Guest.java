@@ -1,5 +1,4 @@
 import java.util.Scanner;
-
 public class Guest extends ProductManage {
     private static final String GUEST_USERNAME = "khach";
 
