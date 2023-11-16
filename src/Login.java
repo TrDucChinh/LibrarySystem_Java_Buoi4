@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class Login {
     public Login() {
-        System.out.print("Enter your username: ");
+        System.out.print("\nEnter your username: ");
         Scanner sc = new Scanner(System.in);
         String userName = sc.nextLine();
         if (userName.equals(Admin.getAdminUserName())) {
