@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Guest extends ProductManage {
+public class Guest {
     private static final String GUEST_USERNAME = "khach";
 
     public static String getGuestUserName() {
@@ -8,6 +8,7 @@ public class Guest extends ProductManage {
 
     public void guestActions(){
         Scanner sc = new Scanner(System.in);
+        ProductManage productManage = new ProductManage();
         while (true){
             System.out.println("\n---------------------------------------");
             System.out.println("|              Menu Khách             |");
@@ -19,11 +20,11 @@ public class Guest extends ProductManage {
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice){
                 case 1:
-                    super.searchProduct();
+                    productManage.searchProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 2:
-                    super.showProduct();
+                    productManage.showProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 3:

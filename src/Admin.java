@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Admin extends ProductManage {
+public class Admin {
     private static final String ADMIN_USERNAME = "admin";
     private static final String ADMIN_PASSWORD = "admin";
 
@@ -14,7 +14,7 @@ public class Admin extends ProductManage {
 
     public void adminActions() {
         Scanner sc = new Scanner(System.in);
-
+        ProductManage productManage = new ProductManage();
         while (true) {
             System.out.println("\n---------------------------------------");
             System.out.println("|              Menu Admin             |");
@@ -29,24 +29,24 @@ public class Admin extends ProductManage {
             byte choice = Byte.parseByte(sc.nextLine());
             switch (choice) {
                 case 1:
-                    super.addProduct();
+                    productManage.addProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 2:
-                    super.deleteProduct();
+                    productManage.deleteProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 3:
-                    super.updateProduct();
+                    productManage.updateProduct();
                     LibrarySystem.pressKey();
                     break;
 
                 case 4:
-                   super.searchProduct();
+                   productManage.searchProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 5:
-                    super.showProduct();
+                    productManage.showProduct();
                     LibrarySystem.pressKey();
                     break;
                 case 6:
