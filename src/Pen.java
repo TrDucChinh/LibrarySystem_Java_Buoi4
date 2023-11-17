@@ -4,9 +4,6 @@ public class Pen extends Product {
     private String inkColor;
     private String smoothly;
 
-    public Pen() {
-    }
-
     public Pen(int id, String name, String price, String brand, String color, String material, String inkColor, String smoothly) {
         super(id, name, price, brand);
         this.color = color;

@@ -5,9 +5,6 @@ public class Book extends Product {
     private String publishDate; // Ngày Xuất Bản
     private String language; // Ngôn Ngữ
 
-    public Book() {
-    }
-
     public Book(int id, String name, String price, String brand, String genre, String author, String publisher, String publishDate, String language) {
         super(id, name, price, brand);
         this.genre = genre;

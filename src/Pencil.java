@@ -3,10 +3,6 @@ public class Pencil extends Product {
     private String material;
     private String hardness;
 
-
-    public Pencil() {
-    }
-
     public Pencil(int id, String name, String price, String brand, String color, String material, String hardness) {
         super(id, name, price, brand);
         this.color = color;

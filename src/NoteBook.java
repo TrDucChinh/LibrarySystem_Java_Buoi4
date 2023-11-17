@@ -5,10 +5,6 @@ public class NoteBook extends Product {
     private String paperType;
     private String size;
 
-
-    public NoteBook() {
-    }
-
     public NoteBook(int id, String name, String price, String brand, String numberOfPage, String type, String colorOfCover, String paperType, String size) {
         super(id, name, price, brand);
         this.numberOfPage = numberOfPage;
