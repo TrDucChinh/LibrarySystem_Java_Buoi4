@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManagePen extends Pen {
+public class ManagePen {
     Scanner sc = new Scanner(System.in);
 
     //Thêm Bút

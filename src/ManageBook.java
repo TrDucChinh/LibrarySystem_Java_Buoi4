@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManageBook extends Book {
+public class ManageBook {
     Scanner sc = new Scanner(System.in);
 
     //Thêm Sách

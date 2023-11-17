@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManagePencil extends Pencil {
+public class ManagePencil {
     Scanner sc = new Scanner(System.in);
 
     //Thêm Bút Chì

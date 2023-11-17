@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ManageNoteBook extends NoteBook {
+public class ManageNoteBook {
     Scanner sc = new Scanner(System.in);
     //Thêm Vở
     public void addNoteBook() {
