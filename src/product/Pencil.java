@@ -12,21 +12,6 @@ public class Pencil extends Product {
         this.hardness = hardness;
     }
 
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public void setPrice(String price) {
-        super.setPrice(price);
-    }
-
-    @Override
-    public void setBrand(String brand) {
-        super.setBrand(brand);
-    }
-
     public void setColor(String color) {
         this.color = color;
     }
@@ -37,27 +22,6 @@ public class Pencil extends Product {
 
     public void setHardness(String hardness) {
         this.hardness = hardness;
-    }
-
-
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public String getPrice() {
-        return super.getPrice();
-    }
-
-    @Override
-    public String getBrand() {
-        return super.getBrand();
-    }
-
-    @Override
-    public int getId() {
-        return super.getId();
     }
 
     public String getColor() {

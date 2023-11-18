@@ -16,22 +16,6 @@ public class NoteBook extends Product {
         this.size = size;
     }
 
-
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public void setPrice(String price) {
-        super.setPrice(price);
-    }
-
-    @Override
-    public void setBrand(String brand) {
-        super.setBrand(brand);
-    }
-
     public void setNumberOfPage(String numberOfPage) {
         this.numberOfPage = numberOfPage;
     }
@@ -50,26 +34,6 @@ public class NoteBook extends Product {
 
     public void setSize(String size) {
         this.size = size;
-    }
-
-    @Override
-    public int getId() {
-        return super.getId();
-    }
-
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public String getPrice() {
-        return super.getPrice();
-    }
-
-    @Override
-    public String getBrand() {
-        return super.getBrand();
     }
 
     public String getNumberOfPage() {

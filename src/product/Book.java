@@ -16,21 +16,6 @@ public class Book extends Product {
         this.language = language;
     }
 
-    @Override
-    public void setName(String name) {
-        super.setName(name);
-    }
-
-    @Override
-    public void setPrice(String price) {
-        super.setPrice(price);
-    }
-
-    @Override
-    public void setBrand(String brand) {
-        super.setBrand(brand);
-    }
-
     public void setAuthor(String author) {
         this.author = author;
     }
@@ -51,25 +36,6 @@ public class Book extends Product {
         this.language = language;
     }
 
-    @Override
-    public String getName() {
-        return super.getName();
-    }
-
-    @Override
-    public String getPrice() {
-        return super.getPrice();
-    }
-
-    @Override
-    public String getBrand() {
-        return super.getBrand();
-    }
-
-    @Override
-    public int getId() {
-        return super.getId();
-    }
 
     public String getGenre() {
         return genre;
