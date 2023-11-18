@@ -1,3 +1,8 @@
+package manage;
+
+import product.*;
+import system.LibrarySystem;
+import showproduct.ShowProduct;
 import java.util.Scanner;
 
 public class ManageNoteBook {

@@ -1,3 +1,7 @@
+package system;
+
+import manage.ProductManage;
+
 import java.util.Scanner;
 
 public class Admin {
@@ -17,7 +21,7 @@ public class Admin {
         ProductManage productManage = new ProductManage();
         while (true) {
             System.out.println("\n---------------------------------------");
-            System.out.println("|              Menu Admin             |");
+            System.out.println("|              Menu system.Admin             |");
             System.out.println("| 1. Thêm Sản Phẩm                    |");
             System.out.println("| 2. Xóa Sản Phẩm                     |");
             System.out.println("| 3. Cập Nhật Sản Phẩm                |");
@@ -50,7 +54,7 @@ public class Admin {
                     LibrarySystem.pressKey();
                     break;
                 case 6:
-                    System.out.println("Thoát chế độ Admin trở về chế độ Khách!!");
+                    System.out.println("Thoát chế độ system.Admin trở về chế độ Khách!!");
                     Guest guest = new Guest();
                     guest.guestActions();
                     return;

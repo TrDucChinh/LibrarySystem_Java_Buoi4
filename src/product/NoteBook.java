@@ -1,3 +1,5 @@
+package product;
+
 public class NoteBook extends Product {
     private String numberOfPage;
     private String type;

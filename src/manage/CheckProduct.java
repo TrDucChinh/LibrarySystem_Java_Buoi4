@@ -1,3 +1,6 @@
+package manage;
+import product.*;
+import system.LibrarySystem;
 public class CheckProduct {
     //Check for search
     public static boolean checkInfoBook(Product product, String query) {
@@ -97,7 +100,7 @@ public class CheckProduct {
         return false;
     }
 
-    //Check exist Product
+    //Check exist product.Product
     public static boolean existBook(String query) {
         boolean checkBook = false;
         for (Product product : LibrarySystem.productsList) {

@@ -1,3 +1,9 @@
+package showproduct;
+
+import manage.CheckProduct;
+import product.*;
+import system.LibrarySystem;
+
 public class ShowProductTable {
     public ShowProductTable(){
         System.out.println("----------------------------------------------------------------------------------------------------------------------------------------------");

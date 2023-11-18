@@ -1,3 +1,7 @@
+package system;
+
+import manage.ProductManage;
+
 import java.util.Scanner;
 public class Guest {
     private static final String GUEST_USERNAME = "khach";

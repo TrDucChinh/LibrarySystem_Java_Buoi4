@@ -1,3 +1,5 @@
+package product;
+
 public class Pen extends Product {
     private String color;
     private String material;

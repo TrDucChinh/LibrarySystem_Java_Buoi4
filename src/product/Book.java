@@ -1,3 +1,5 @@
+package product;
+
 public class Book extends Product {
     private String genre; // Thể Loại
     private String author; // Tác Giả

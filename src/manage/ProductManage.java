@@ -1,3 +1,7 @@
+package manage;
+
+import system.LibrarySystem;
+import showproduct.*;
 import java.util.Scanner;
 
 public class ProductManage {
