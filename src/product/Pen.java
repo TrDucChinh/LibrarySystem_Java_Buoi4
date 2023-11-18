@@ -47,8 +47,4 @@ public class Pen extends Product {
         return smoothly;
     }
 
-    //Check anything
-
-
-
 }
